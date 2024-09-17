@@ -75,7 +75,20 @@ textarea{
 	background-color: rgba(0,0,0,0.4); 
 	padding-top: 60px; 
 }
-
+#confirmation-message {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+}
 .modal-content {
 	background-color: #fefefe;
 	margin: 5% auto; 
