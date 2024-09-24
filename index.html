@@ -97,7 +97,8 @@
             // Esperar 1 segundo y luego redirigir a una página en blanco e intentar cerrar la ventana
             setTimeout(function() {
                 window.location.href = "about:blank"; // Redirige a una página de agradecimiento
-            }, 1000);
+		window.close();
+            }, 1500);
         });
     </script>
 </body>
